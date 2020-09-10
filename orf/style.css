@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+nav {
+  position: relative;
+  width: 875px;
+  left: 5%;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4371a3;
+}
+
+nav ul {
+  display: flex;
+}
+nav li {
+  padding: 0.3rem 1.1rem 0.3rem 1.1rem;
+}
+
+nav a {
+  color: white;
+}
